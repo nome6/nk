@@ -5,8 +5,8 @@ let suggestions = [
     "Maths 1B Notes",
     "Maths 1A Notes",
     "Chemistry Notes",
-    "Pakka-Commercial(2022)",
-    "F3(2022)",
-    "F2(2019)",
+    "pakka-commercial(2022)",
+    "f3(2022)",
+    "f2(2019)",
   
 ];
