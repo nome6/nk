@@ -40,7 +40,7 @@ function select(element){
     let selectData = element.textContent;
     inputBox.value = selectData;
     icon.onclick = ()=>{
-        webLink = `http://noms.unaux.com/${selectData}/`;
+        webLink = `https://noms.unaux.com/${selectData}/`;
         linkTag.setAttribute("href", webLink);
         linkTag.click();
     }
