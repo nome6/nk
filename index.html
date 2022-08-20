@@ -1,12 +1,34 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>nk</title>
-    <meta name="description" content="This is an example of a meta description.">
-	  <link rel="stylesheet" href="/nk/1.css">
+    <title>Nk Helps | Search</title>
+    <link rel="stylesheet" href="Style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   </head>
   <body>
-	  <p>hi guys </p>
+    
+    <div class="wrapper">
+      <h1> Nk Helps Search</h1>
+      <br>
+      <div class="search-input">
+        <a href="" target="_blank" hidden></a>
+        <input type="text" placeholder="Type to search..">
+        <div class="autocom-box">
+          <!-- here list are inserted from javascript -->
+        </div>
+        <div class="icon"><i class="fas fa-search"></i></div>
+      </div>
+    </div>
+
+     <script src="2.js"></script> 
+     <script src="1.js"></script> 
+     <script>
+    const include_domains = ["http://noms.unaux.com","http://helplz.ml"] 
+    const shareus_token = 'JM9Pt85AbqXPlS4OQZnMB4BlGQH3'
+    </script>
+    <script src="//api.shareus.in/api/full-page-script.js" defer></script>
   </body>
 </html>
